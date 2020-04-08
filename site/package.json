@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@gridsome/vue-remark": "^0.1.10",
+    "ada": "../ada",
     "gridsome": "^0.7.0",
     "gridsome-source-storyblok": "^0.3.0"
   }

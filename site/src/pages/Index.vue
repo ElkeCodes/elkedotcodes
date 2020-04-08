@@ -1,7 +1,9 @@
 <template>
   <Layout>
     <ul>
-      <li v-for="post in $page.posts.edges" :key="post.node.title">{{ post.node.title }}</li>
+      <li v-for="post in $page.posts.edges" :key="post.node.title">
+        <g-link :to="post.node.path">{{ post.node.title }}</g-link>
+      </li>
     </ul>
   </Layout>
 </template>
@@ -26,6 +28,7 @@ query {
 		edges {
 			node {
 				title
+        path
 			}
 		}
 	}
