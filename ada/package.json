@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "tailwindcss": "^1.2.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
