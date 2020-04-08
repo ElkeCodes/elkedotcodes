@@ -1,10 +1,12 @@
 {
   "name": "ada",
   "version": "0.1.0",
+  "main": "./dist/ada.common.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name ada src/lib.ts",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
