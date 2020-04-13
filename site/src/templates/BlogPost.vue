@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import AdaButton from 'ada'
+import AdaButton from 'ada/src/components/Button'
 
 export default {
   components: {

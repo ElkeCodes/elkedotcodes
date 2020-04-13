@@ -1,6 +1,7 @@
 const autoprefixer = require("autoprefixer");
 const tailwindcss = require("tailwindcss");
 const postcssPurgecss = require("@fullhuman/postcss-purgecss");
+const postcssImport = require('postcss-import');
 
 const purgecss = postcssPurgecss({
   content: ["./public/**/*.html", "./src/**/*.vue"],
@@ -14,6 +15,7 @@ const purgecss = postcssPurgecss({
 
 module.exports = {
   plugins: [
+    postcssImport,
     tailwindcss,
     autoprefixer,
     ...(process.env.NODE_ENV === "production" ? [purgecss] : [])

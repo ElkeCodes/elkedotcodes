@@ -11,5 +11,9 @@
     "ada": "../ada",
     "gridsome": "^0.7.0",
     "gridsome-source-storyblok": "^0.3.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
   }
 }
