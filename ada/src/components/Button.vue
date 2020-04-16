@@ -2,7 +2,7 @@
   <button
     class="text-xl uppercase text-indigo-600 border-solid border-4 border-red-600"
   >
-    Test
+    <slot></slot>
   </button>
 </template>
 
