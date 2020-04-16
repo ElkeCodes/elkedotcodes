@@ -1,18 +1,22 @@
 <template>
   <Layout>
-    <h1>{{ $page.blogPost.title }}</h1>
-    <p class="intro">{{ $page.blogPost.excerpt }}</p>
-    <AdaButton></AdaButton>
+    <AdaHeading>{{ $page.blogPost.title }}</AdaHeading>
+    <AdaIntro>{{ $page.blogPost.excerpt }}</AdaIntro>
     <VueRemarkContent />
+    <AdaButton>Test</AdaButton>
   </Layout>
 </template>
 
 <script>
 import AdaButton from 'ada/src/components/Button'
+import AdaHeading from 'ada/src/components/Heading'
+import AdaIntro from 'ada/src/components/Intro'
 
 export default {
   components: {
-    AdaButton
+    AdaButton,
+    AdaHeading,
+    AdaIntro
   }
 }
 </script>
