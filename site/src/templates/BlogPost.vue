@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <AdaHeading>{{ $page.blogPost.title }}</AdaHeading>
-    <AdaIntro>{{ $page.blogPost.excerpt }}</AdaIntro>
+    <AdaIntro v-if="$page.blogPost.excerpt">{{ $page.blogPost.excerpt }}</AdaIntro>
     <VueRemarkContent />
     <AdaButton>Test</AdaButton>
   </Layout>
@@ -22,8 +22,8 @@ export default {
 </script>
 
 <page-query>
-query BlogPost ($id: ID!) {
-  blogPost(id: $id) {
+query BlogPost ($path: String!) {
+  blogPost(path: $path) {
     title
     excerpt
   }
