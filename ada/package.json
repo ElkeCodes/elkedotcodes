@@ -13,6 +13,7 @@
     "build:lib": "vue-cli-service build --target lib --name ada src/lib.ts",
     "build:css": "postcss src/assets/css/tailwind.scss -o style.scss",
     "test:unit": "vue-cli-service test:unit",
+    "test:watch": "vue-cli-service test:unit --watch",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
