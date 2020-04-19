@@ -1,8 +1,4 @@
-// This is where project configuration and plugin options are located.
-// Learn more: https://gridsome.org/docs/config
-
-// Changes here require a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
+const path = require("path");
 
 module.exports = {
   siteName: "ElkeDotCodes",
@@ -13,8 +9,15 @@ module.exports = {
         typeName: "BlogPost",
         baseDir: "./content/blogposts",
         template: "./src/templates/BlogPost.vue",
-        route: "/blog/:slug",
-      },
-    },
+        route: "/blog/:slug"
+      }
+    }
   ],
+  configureWebpack: {
+    resolve: {
+      alias: {
+        vue: path.resolve("../ada/node_modules/vue")
+      }
+    }
+  }
 };
