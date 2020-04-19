@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
+          lightest: colors.teal[100],
           ligther: colors.teal[500],
           default: colors.teal[700],
           darker: colors.teal[900]
