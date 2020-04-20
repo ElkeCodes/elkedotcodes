@@ -1,7 +1,19 @@
+body {
+  @apply bg-gray-900 text-white p-4;
+}
+
 h2 {
   @apply font-serif text-3xl border-b-2;
 }
 
 p {
   @apply py-2;
+}
+
+.nav__link {
+  @apply self-center ml-4 px-2 py-1;
+}
+
+.nav__link:hover {
+  @apply rounded bg-primary shadow-lg;
 }
