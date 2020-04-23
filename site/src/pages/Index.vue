@@ -16,7 +16,7 @@
         music by collecting records and attending concerts.
       </p>
     </div>
-    <AdaHeading>Latest blogposts</AdaHeading>
+    <h2>Latest blogpost</h2>
     <ul>
       <li v-for="post in $page.posts.edges" :key="post.node.title">
         <g-link :to="post.node.path">
@@ -32,15 +32,13 @@
 
 <script>
 import AdaCard from "ada/src/components/Card";
-import AdaHeading from "ada/src/components/Heading";
 
 export default {
   metaInfo: {
     title: "Hello, world!"
   },
   components: {
-    AdaCard,
-    AdaHeading
+    AdaCard
   },
   data() {
     return {
