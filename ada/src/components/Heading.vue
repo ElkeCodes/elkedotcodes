@@ -1,7 +1,5 @@
 <template>
-  <h1
-    class="font-bold font-serif break-normal pt-6 pb-2 text-5xl"
-  >
+  <h1>
     <slot></slot>
   </h1>
 </template>

@@ -603,10 +603,17 @@ body {
   padding: 1rem;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 h2 {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.875rem;
-  border-bottom-width: 2px;
+}
+
+h3 {
+  font-size: 1.25rem;
 }
 
 p {
