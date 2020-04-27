@@ -600,25 +600,34 @@ video {
 body {
   background-color: #1a202c;
   color: #fff;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 h1 {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 3rem;
   font-weight: 700;
+  padding-top: 2rem;
 }
 
 h2 {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.875rem;
+  font-weight: 700;
+  padding-top: 2rem;
 }
 
 h3 {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.25rem;
+  font-weight: 700;
+  padding-top: 2rem;
 }
 
 p {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.625;
 }
 
 .nav__link {
