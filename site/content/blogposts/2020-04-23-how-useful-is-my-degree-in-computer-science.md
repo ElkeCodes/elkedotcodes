@@ -32,7 +32,7 @@ My future professors were very talkative and proud about their courses.
 I felt so much passion when they were talking about all the courses they were giving.
 That day I got home with a feeling of "I'll regret it if I don't study at the VUB".
 
-<g-image alt="Part of the green campus of the Vrije Universiteit Brussel" src="~/assets/img/how-useful-is-my-degree-in-computer-science/vrije-universiteit-brussel-campus.jpg" position="center" fit="contain" />
+![Part of the green campus of the Vrije Universiteit Brussel](../../src/assets/img/how-useful-is-my-degree-in-computer-science/vrije-universiteit-brussel-campus.jpg)
 
 ## What were the contents of my bachelor's?
 

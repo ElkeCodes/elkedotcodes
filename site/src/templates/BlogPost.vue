@@ -4,8 +4,7 @@
     <AdaIntro v-if="$page.blogPost.excerpt">{{
       $page.blogPost.excerpt
     }}</AdaIntro>
-    <VueRemarkContent />
-    <AdaButton>Test</AdaButton>
+    <div v-html="$page.blogPost.content"></div>
   </Layout>
 </template>
 
@@ -33,6 +32,7 @@ query BlogPost ($path: String!) {
   blogPost(path: $path) {
     title
     excerpt
+    content
   }
 }
 </page-query>

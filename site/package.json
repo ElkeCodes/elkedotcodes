@@ -7,12 +7,14 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/vue-remark": "^0.1.10",
+    "@gridsome/remark-prismjs": "^0.3.0",
+    "@gridsome/source-filesystem": "^0.6.2",
     "ada": "../ada",
     "gridsome": "^0.7.0",
     "gridsome-source-storyblok": "^0.3.0"
   },
   "devDependencies": {
+    "@gridsome/transformer-remark": "^0.5.0",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2"
   }

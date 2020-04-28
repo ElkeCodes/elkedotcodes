@@ -1,4 +1,5 @@
 import "ada/style.scss";
+import "prismjs/themes/prism-tomorrow.css";
 
 import DefaultLayout from "~/layouts/Default.vue";
 

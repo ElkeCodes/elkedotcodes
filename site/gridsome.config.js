@@ -4,15 +4,19 @@ module.exports = {
   siteName: "ElkeDotCodes",
   plugins: [
     {
-      use: "@gridsome/vue-remark",
+      use: "@gridsome/source-filesystem",
       options: {
         typeName: "BlogPost",
-        baseDir: "./content/blogposts",
-        template: "./src/templates/BlogPost.vue",
-        route: "/blog/:slug"
+        path: "./content/blogposts/**/*.md",
+        remark: {
+          plugins: ["@gridsome/remark-prismjs"]
+        }
       }
     }
   ],
+  templates: {
+    BlogPost: "/blog/:slug",
+  },
   configureWebpack: {
     resolve: {
       alias: {
