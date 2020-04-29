@@ -1,0 +1,20 @@
+{
+  "name": "elkedotcodes",
+  "version": "0.1.1",
+  "description": "ElkeDotCodes monorepo",
+  "main": "index.js",
+  "repository": "https://github.com/ElkeCodes/elkedotcodes.git",
+  "author": "Elke Heymans <el.heymans@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "site",
+    "ada"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
+  }
+}
