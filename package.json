@@ -1,6 +1,6 @@
 {
   "name": "elkedotcodes",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "ElkeDotCodes monorepo",
   "main": "index.js",
   "repository": "https://github.com/ElkeCodes/elkedotcodes.git",
@@ -12,6 +12,7 @@
     "ada"
   ],
   "dependencies": {
+    "@vue/cli": "^4.3.1",
     "core-js": "^3.6.4",
     "tailwindcss": "^1.2.0",
     "vue": "^2.6.11",
