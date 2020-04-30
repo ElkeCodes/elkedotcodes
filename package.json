@@ -22,9 +22,6 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "lerna:cache": "[ $NETLIFY_RESTORE = 1 ] && ./bin/lerna-cache || :",
-    "lerna:restore": "[ $NETLIFY_RESTORE = 1 ] && ./bin/lerna-restore || :",
-    "preinstall": "yarn lerna:restore",
     "site:build": "cd site && yarn build"
   }
 }

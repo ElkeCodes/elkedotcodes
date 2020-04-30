@@ -19,8 +19,7 @@
     "build-storybook": "build-storybook",
     "netlify:build": "vue-cli-service build && yarn netlify:lerna:cache",
     "netlify:lerna:cache": "../bin/lerna-cache",
-    "netlify:lerna:restore": "../bin/lerna-restore",
-    "preinstall": "yarn netlify:lerna:restore"
+    "netlify:lerna:restore": "../bin/lerna-restore"
   },
   "dependencies": {
     "core-js": "^3.6.4",
