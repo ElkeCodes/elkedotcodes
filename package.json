@@ -17,5 +17,14 @@
     "tailwindcss": "^1.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "lerna:cache": "[ $NETLIFY_RESTORE = 1 ] && ./lerna-cache || :",
+    "lerna:restore": "[ $NETLIFY_RESTORE = 1 ] && ./lerna-restore || :",
+    "preinstall": "yarn lerna:restore",
+    "site:build": "cd site && yarn build"
   }
 }
