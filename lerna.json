@@ -1,0 +1,6 @@
+{
+  "packages": ["ada", "site"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}
