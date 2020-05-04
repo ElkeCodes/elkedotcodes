@@ -16,12 +16,5 @@ module.exports = {
   ],
   templates: {
     BlogPost: "/blog/:slug",
-  },
-  configureWebpack: {
-    resolve: {
-      alias: {
-        vue: path.resolve("../ada/node_modules/vue")
-      }
-    }
   }
 };

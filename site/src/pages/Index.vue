@@ -31,28 +31,29 @@
 </template>
 
 <script>
+import Vue from "vue";
 import AdaCard from "ada/src/components/Card";
 
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "Hello, world!",
   },
   components: {
-    AdaCard
+    AdaCard,
   },
   data() {
     return {
-      profilePicture: "/img/me.jpg"
+      profilePicture: "/img/me.jpg",
     };
   },
   methods: {
-    mouseover: function() {
+    mouseover: function () {
       this.profilePicture = "/img/me-metal.jpg";
     },
-    mouseleave: function() {
+    mouseleave: function () {
       this.profilePicture = "/img/me.jpg";
-    }
-  }
+    },
+  },
 };
 </script>
 

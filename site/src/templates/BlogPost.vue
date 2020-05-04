@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import Vue from "vue";
 import AdaButton from "ada/src/components/Button";
 import AdaHeading from "ada/src/components/Heading";
 import AdaIntro from "ada/src/components/Intro";
@@ -16,14 +17,14 @@ import AdaIntro from "ada/src/components/Intro";
 export default {
   metaInfo() {
     return {
-      title: this.$page.blogPost.title
+      title: this.$page.blogPost.title,
     };
   },
   components: {
     AdaButton,
     AdaHeading,
-    AdaIntro
-  }
+    AdaIntro,
+  },
 };
 </script>
 

@@ -13,7 +13,8 @@
   "dependencies": {
     "@gridsome/remark-prismjs": "^0.3.0",
     "@gridsome/source-filesystem": "^0.6.2",
-    "ada": "0.1.0",
+    "@vue/cli": "^4.3.1",
+    "ada": "./ada",
     "gridsome": "^0.7.0",
     "gridsome-source-storyblok": "^0.3.0",
     "vue": "^2.6.11"
