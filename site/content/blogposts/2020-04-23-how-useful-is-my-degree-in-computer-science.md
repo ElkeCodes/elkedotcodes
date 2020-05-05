@@ -72,7 +72,7 @@ I learned how CPUs are internally structured, right down to how AND-ports, OR-po
 Courses like ObjectOriented Modelling Techniques learnt me everything that would be necessary to model software in diagrams such as UML.
 I also learned more about Turing Machines and other mathematical principles that form the basis of informatics.
 
-<g-image alt="Structure and Interpretation of Computer Programs book cover" src="~/assets/img/how-useful-is-my-degree-in-computer-science/structure-and-interpretation-of-computer-programs.jpg" position="center" fit="contain" />
+![Structure and Interpretation of Computer Programs book cover](../../src/assets/img/how-useful-is-my-degree-in-computer-science/structure-and-interpretation-of-computer-programs.jpg)
 
 But it was not only theoretical stuff that I learned.
 I learned to do projects in Java, I programmed games in Assembly and learned languages like C++.
@@ -110,7 +110,7 @@ But my career has changed from being a fullstack developer to being a frontend d
 So for example the database and information systems courses are simply not that relevant anymore for me.
 But it is nice to still have that theoretical background.
 
-<g-image alt="Aerial view of the campus of the Vrije Universiteit Brussel with the city in the background" src="~/assets/img/how-useful-is-my-degree-in-computer-science/css-code.jpeg" position="center" fit="contain" />
+![Aerial view of the campus of the Vrije Universiteit Brussel with the city in the background](../../src/assets/img/how-useful-is-my-degree-in-computer-science/css-code.jpeg)
 
 ## What were the good and the bad parts of my education?
 
@@ -154,7 +154,7 @@ And even if I didn't bughunt for something such specific, it gives me sense of f
 
 Because I value background knowledge so much and am always curious on how things work, I consider this to be a good part of my education.
 
-<g-image alt="Aerial view of the campus of the Vrije Universiteit Brussel with the city in the background" src="~/assets/img/how-useful-is-my-degree-in-computer-science/vrije-universiteit-brussel-stad.jpg" position="center" fit="contain" />
+![Aerial view of the campus of the Vrije Universiteit Brussel with the city in the background](../../src/assets/img/how-useful-is-my-degree-in-computer-science/vrije-universiteit-brussel-stad.jpg)
 
 ## Most things in my current job, I've learned at the job
 
