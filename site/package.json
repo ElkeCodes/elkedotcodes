@@ -5,10 +5,7 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "netlify:build": "gridsome build && yarn netlify:lerna:cache",
-    "netlify:lerna:cache": "../bin/lerna-cache",
-    "netlify:lerna:restore": "../bin/lerna-restore"
+    "explore": "gridsome explore"
   },
   "dependencies": {
     "@gridsome/remark-prismjs": "^0.3.0",
