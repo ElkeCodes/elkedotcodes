@@ -16,9 +16,12 @@
         music by collecting records and attending concerts.
       </p>
     </div>
-    <h2>Latest blogpost</h2>
+    <h2>Highlighted blogpost</h2>
+    <h3>{{ highlightedBlogpost.node.title }}</h3>
+    <p>{{ highlightedBlogpost.node.excerpt }}</p>
+    <h2>Latest blogposts</h2>
     <ul>
-      <li v-for="post in $page.posts.edges" :key="post.node.title">
+      <li v-for="post in latestBlogposts" :key="post.node.title">
         <g-link :to="post.node.path">
           <AdaCard>
             <template v-slot:title>{{ post.node.title }}</template>
@@ -54,6 +57,14 @@ export default {
       this.profilePicture = "/img/me.jpg";
     },
   },
+  computed: {
+    highlightedBlogpost() {
+      return this.$page.posts ? this.$page.posts.edges[0] : {};
+    },
+    latestBlogposts() {
+      return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
+    }
+  }
 };
 </script>
 
