@@ -1,13 +1,11 @@
-const { colors } = require("tailwindcss/defaultTheme");
-
 module.exports = {
   theme: {
     extend: {
       colors: {
         primary: {
-          ligther: "#FF662E",
+          lighter: "#FF662E",
           default: "#F74F14",
-          darker: "AB3307"
+          darker: "#AB3307"
         },
         secondary: {
           lighter: "#14F7CA",
@@ -15,10 +13,14 @@ module.exports = {
           darker: "#007A62"
         },
         gray: {
-          darker: "#212121"
-        },
-        neutral: colors.gray[700]
+          darker: "#212121",
+          default: "#3B3B3B",
+          lighter: "#555555"
+        }
       }
     }
+  },
+  variants: {
+    backgroundColor: ["responsive", "hover", "focus", "group-hover"]
   }
 };
