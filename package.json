@@ -1,6 +1,6 @@
 {
   "name": "elkedotcodes",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "ElkeDotCodes monorepo",
   "main": "index.js",
   "repository": "https://github.com/ElkeCodes/elkedotcodes.git",

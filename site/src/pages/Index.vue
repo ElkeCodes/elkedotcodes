@@ -1,18 +1,18 @@
 <template>
   <Layout>
-    <div class="flex mb-2">
-      <div class="w-1/4 flex">
+    <div class="flex flex-wrap md:flex-no-wrap mb-2">
+      <div class="w-full md:w-1/4 flex">
         <img
           :src="profilePicture"
           @mouseover="mouseover"
           @mouseleave="mouseleave"
           alt=""
-          class="my-auto rounded-full shadow-lg transition"
+          class="w-1/2 md:w-full mx-auto my-auto rounded-full shadow-lg transition"
         />
       </div>
 
-      <div class="w-3/4 pl-8">
-        <h1 class="font-bold text-5xl text-center">
+      <div class="w-full md:w-3/4 md:pl-8">
+        <h1 class="text-center">
           Hi there, I'm Elke!<br />👩🏼‍💻 🤘 📸
         </h1>
         <p>
@@ -95,6 +95,15 @@ export default {
     },
     latestBlogposts() {
       return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
+    }
+  },
+  computed: {
+    highlightedBlogpost() {
+      return this.$page.posts ? this.$page.posts.edges[0] : {};
+    },
+    latestBlogposts() {
+      return this.$page.posts.edges;
+      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
     }
   },
   computed: {

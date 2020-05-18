@@ -1,10 +1,10 @@
 <template>
-  <div class="container max-w-screen-md mx-auto">
+  <div class="container max-w-full md:max-w-screen-md mx-auto p-4 md:p-8">
     <header class="full-width flex justify-between h-16 mb-8">
       <g-link to="/" class="font-bold text-4xl flex content-center">{{
         $static.metadata.siteName
       }}</g-link>
-      <nav class="flex">
+      <nav class="hidden md:flex">
         <g-link class="self-center ml-4 px-4 py-2 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-primary" to="/">Home</g-link>
         <g-link class="self-center ml-4 px-4 py-2 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-primary" to="/about/">About me</g-link>
       </nav>

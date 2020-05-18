@@ -5,6 +5,30 @@
       $page.blogPost.excerpt
     }}</AdaIntro>
     <div v-html="$page.blogPost.content"></div>
+    <aside>
+      <p class="italic text-tiny">This {{$page.blogPost.type}} was written on {{$page.blogPost.date}}</p>
+      <div
+        class="flex flex-wrap md:flex-no-wrap mb-2 bg-gray-lighter rounded-lg px-4 py-2"
+      >
+        <div class="w-full md:w-1/5 flex">
+          <img
+            src="/img/me.jpg"
+            alt=""
+            class="w-1/2 md:w-full mx-auto my-auto rounded-full shadow-lg transition"
+          />
+        </div>
+        <div class="w-full md:w-4/5 md:pl-8">
+          <h2 class="text-lg">Hi there, I'm Elke! 👩🏼‍💻 🤘 📸</h2>
+          <p class="text-tiny">
+            I'm a frontend developer focusing on <strong>Vue</strong>,
+            <strong>TypeScript</strong> with a strong interest in a variety of
+            web technologies. In my spare time you can find me taking
+            photographs at events, training for half marathons or enjoying music
+            by collecting records and attending concerts.
+          </p>
+        </div>
+      </div>
+    </aside>
   </Layout>
 </template>
 
@@ -34,6 +58,8 @@ query BlogPost ($path: String!) {
     title
     excerpt
     content
+    date (format: "D MMMM YYYY")
+    type
   }
 }
 </page-query>
