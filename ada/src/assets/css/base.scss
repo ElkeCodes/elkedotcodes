@@ -1,19 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@900&family=Montserrat&family=Source+Sans+Pro&display=swap');
+
 body {
-  @apply bg-gray-darker text-white p-8;
+  @apply bg-gray-darker text-white;
 }
 
 h1 {
-  @apply font-sans text-5xl font-bold;
+  @apply font-heading text-4xl font-bold;
+}
+
+@screen md {
+  h1 {
+    @apply text-5xl;
+  }
 }
 
 h2 {
-  @apply font-sans text-3xl font-bold pt-4;
+  @apply font-heading text-3xl font-bold pt-4;
 }
 
 h3 {
-  @apply font-sans text-2xl font-bold pt-2;
+  @apply font-heading text-2xl font-bold pt-2;
 }
 
 p {
-  @apply py-4 leading-relaxed;
+  @apply font-sans text-base py-4 leading-relaxed;
 }
