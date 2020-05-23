@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <div class="flex flex-wrap md:flex-no-wrap mb-2">
-      <div class="w-full md:w-1/4 flex">
+      <div class="w-full md:w-1/4 flex justify-center items-center">
         <img
           :src="profilePicture"
           @mouseover="mouseover"
           @mouseleave="mouseleave"
           alt=""
-          class="w-1/2 md:w-full mx-auto my-auto rounded-full shadow-lg transition"
+          class="w-1/2 md:w-full rounded-full shadow-lg transition"
         />
       </div>
 
