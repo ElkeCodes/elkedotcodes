@@ -1,12 +1,16 @@
 <template>
   <Layout>
-    <AdaHeading>{{ $page.blogPost.icon}} {{ $page.blogPost.title }}</AdaHeading>
+    <AdaHeading
+      >{{ $page.blogPost.icon }} {{ $page.blogPost.title }}</AdaHeading
+    >
     <AdaIntro v-if="$page.blogPost.excerpt">{{
       $page.blogPost.excerpt
     }}</AdaIntro>
     <div v-html="$page.blogPost.content"></div>
     <aside>
-      <p class="italic text-tiny">This {{$page.blogPost.type}} was written on {{$page.blogPost.date}}</p>
+      <p class="italic text-tiny">
+        This {{ $page.blogPost.type }} was written on {{ $page.blogPost.date }}
+      </p>
       <div
         class="flex flex-wrap md:flex-no-wrap mb-2 bg-gray-lighter rounded-lg px-4 py-2"
       >
@@ -18,7 +22,9 @@
           />
         </div>
         <div class="w-full md:w-4/5 md:pl-8">
-          <h2 class="text-lg text-center md:text-left">Hi there, I'm Elke! <br class="md:hidden" />👩🏼‍💻 🤘 📸</h2>
+          <h2 class="text-lg text-center md:text-left">
+            Hi there, I'm Elke! <br class="md:hidden" />👩🏼‍💻 🤘 📸
+          </h2>
           <p class="text-tiny">
             I'm a frontend developer focusing on <strong>Vue</strong>,
             <strong>TypeScript</strong> with a strong interest in a variety of
@@ -41,7 +47,8 @@ import AdaIntro from "ada/src/components/Intro";
 export default {
   metaInfo() {
     return {
-      title: this.$page.blogPost.title
+      title: this.$page.blogPost.title,
+      meta: [{ name: "description", content: this.$page.blogPost.excerpt }]
     };
   },
   components: {

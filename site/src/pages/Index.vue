@@ -72,7 +72,14 @@ import AdaCard from "ada/src/components/Card";
 
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "Hi I'm Elke!",
+    meta: [
+      {
+        name: "description",
+        content:
+          "Personal blog mainly about webdevelopment. Focus on Vue, TypeScript, bookreviews, coding tips and my experience as a woman in tech."
+      }
+    ]
   },
   components: {
     AdaCard

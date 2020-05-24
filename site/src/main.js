@@ -12,7 +12,7 @@ export default function(Vue, { router, head, isClient }) {
 const setHeadTags = head => {
   head.meta.push({
     name: "keywords",
-    content: "HTML,CSS,JavaScript,VueJS"
+    content: "HTML,CSS,JavaScript,VueJS,TypeScript"
   });
   head.meta.push({
     name: "author",
