@@ -10,8 +10,8 @@
     <div class="full-width">
       <slot />
     </div>
-    <footer class="full-width mt-16 pt-2 border-t">
-      &copy; 2020 Elke Heymans
+    <footer class="full-width mt-16 pt-2 border-t text-tiny">
+      &copy; 2020 Elke Heymans - Made with Vue, Gridsome, TailwindCSS, GraphQL and ☕️
     </footer>
   </div>
 </template>

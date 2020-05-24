@@ -1,5 +1,5 @@
 ---
-slug: "2020-04-17-dont-make-me-think"
+slug: "dont-make-me-think"
 type: "bookreview"
 title: "Don't Make Me Think"
 date: 2020-05-18

@@ -56,7 +56,10 @@
       <li>🔴 Leaflet</li>
       <li>🔴 Bootstrap</li>
     </ul>
-    <p class="text-tiny">Note: these lists are not exhaustive and will change over time when I work on new projects or when I'm experimenting with new things.</p>
+    <p class="text-tiny">
+      Note: these lists are not exhaustive and will change over time when I work
+      on new projects or when I'm experimenting with new things.
+    </p>
   </Layout>
 </template>
 
@@ -67,9 +70,15 @@ import AdaHeading from "ada/src/components/Heading";
 export default {
   metaInfo: {
     title: "About us",
+    meta: [
+      {
+        description:
+          "Learn more about myself, the technologies I use and what kind of tech I'm interested in to learn!"
+      }
+    ]
   },
   components: {
-    AdaHeading,
-  },
+    AdaHeading
+  }
 };
 </script>

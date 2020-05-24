@@ -1,5 +1,5 @@
 ---
-slug: "2020-04-23-how-useful-is-my-degree-in-computer-science"
+slug: "how-useful-is-my-degree-in-computer-science"
 type: "opinion"
 date: 2020-05-18
 title: "How useful is my degree in Computer Science?"

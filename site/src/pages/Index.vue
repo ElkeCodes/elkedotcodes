@@ -13,12 +13,13 @@
 
       <div class="w-full md:w-3/4 md:pl-8">
         <h1 class="text-center">Hi there, I'm Elke!<br />👩🏼‍💻 🤘 📸</h1>
-        <p>
+        <p class="text-tiny">
           I'm a frontend developer focusing on <strong>Vue</strong>,
           <strong>TypeScript</strong> with a strong interest in a variety of web
           technologies. In my spare time you can find me taking photographs at
           events, training for half marathons or enjoying music by collecting
-          records and attending concerts.
+          records and attending concerts. Let's grab a beer or coffee while
+          talking tech!
         </p>
       </div>
     </div>
@@ -72,7 +73,14 @@ import AdaCard from "ada/src/components/Card";
 
 export default {
   metaInfo: {
-    title: "Hello, world!",
+    title: "Hi I'm Elke!",
+    meta: [
+      {
+        name: "description",
+        content:
+          "Personal blog mainly about webdevelopment. Focus on Vue, TypeScript, bookreviews, coding tips and my experience as a woman in tech."
+      }
+    ]
   },
   components: {
     AdaCard,
@@ -96,6 +104,15 @@ export default {
     },
     latestBlogposts() {
       return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
+    }
+  },
+  computed: {
+    highlightedBlogpost() {
+      return this.$page.posts ? this.$page.posts.edges[0] : {};
+    },
+    latestBlogposts() {
+      return this.$page.posts.edges;
+      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
     }
   },
   computed: {
