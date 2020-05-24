@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <AdaHeading>{{ $page.blogPost.title }}</AdaHeading>
+    <AdaHeading>{{ $page.blogPost.icon}} {{ $page.blogPost.title }}</AdaHeading>
     <AdaIntro v-if="$page.blogPost.excerpt">{{
       $page.blogPost.excerpt
     }}</AdaIntro>
@@ -14,11 +14,11 @@
           <img
             src="/img/me.jpg"
             alt=""
-            class="w-1/2 md:w-full mx-auto my-auto rounded-full shadow-lg transition"
+            class="w-1/2 md:w-full mx-auto mt-4 md:my-auto rounded-full shadow-lg transition"
           />
         </div>
         <div class="w-full md:w-4/5 md:pl-8">
-          <h2 class="text-lg">Hi there, I'm Elke! 👩🏼‍💻 🤘 📸</h2>
+          <h2 class="text-lg text-center md:text-left">Hi there, I'm Elke! <br class="md:hidden" />👩🏼‍💻 🤘 📸</h2>
           <p class="text-tiny">
             I'm a frontend developer focusing on <strong>Vue</strong>,
             <strong>TypeScript</strong> with a strong interest in a variety of
@@ -60,6 +60,7 @@ query BlogPost ($path: String!) {
     content
     date (format: "D MMMM YYYY")
     type
+    icon
   }
 }
 </page-query>
