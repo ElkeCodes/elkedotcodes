@@ -30,7 +30,8 @@
             <strong>TypeScript</strong> with a strong interest in a variety of
             web technologies. In my spare time you can find me taking
             photographs at events, training for half marathons or enjoying music
-            by collecting records and attending concerts.
+            by collecting records and attending concerts. Let's grab a beer or
+            coffee while talking tech!
           </p>
         </div>
       </div>

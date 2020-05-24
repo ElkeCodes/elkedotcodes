@@ -13,12 +13,13 @@
 
       <div class="w-full md:w-3/4 md:pl-8">
         <h1 class="text-center">Hi there, I'm Elke!<br />👩🏼‍💻 🤘 📸</h1>
-        <p>
+        <p class="text-tiny">
           I'm a frontend developer focusing on <strong>Vue</strong>,
           <strong>TypeScript</strong> with a strong interest in a variety of web
           technologies. In my spare time you can find me taking photographs at
           events, training for half marathons or enjoying music by collecting
-          records and attending concerts.
+          records and attending concerts. Let's grab a beer or coffee while
+          talking tech!
         </p>
       </div>
     </div>
