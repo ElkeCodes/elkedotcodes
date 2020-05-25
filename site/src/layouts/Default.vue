@@ -35,7 +35,7 @@
     <div class="full-width p-4 md:p-8">
       <slot />
     </div>
-    <footer class="full-width m-4 md:m-8 border-t text-tiny">
+    <footer class="full-width m-4 md:m-8 md:mt-0 pt-2 border-t text-tiny">
       &copy; 2020 Elke Heymans - Made with Vue, Gridsome, TailwindCSS, GraphQL
       and ☕️
     </footer>

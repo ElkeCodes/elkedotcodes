@@ -23,7 +23,7 @@
         </p>
       </div>
     </div>
-    <section class="clearfix">
+    <section class="clearfix mb-4">
       <h2>Highlighted blogpost</h2>
       <g-link
         :to="highlightedBlogpost.node.path"
