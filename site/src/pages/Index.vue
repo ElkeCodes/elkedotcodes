@@ -23,7 +23,7 @@
         </p>
       </div>
     </div>
-    <section class="clearfix">
+    <section class="clearfix mb-4">
       <h2>Highlighted blogpost</h2>
       <g-link
         :to="highlightedBlogpost.node.path"
@@ -104,6 +104,15 @@ export default {
     },
     latestBlogposts() {
       return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
+    }
+  },
+  computed: {
+    highlightedBlogpost() {
+      return this.$page.posts ? this.$page.posts.edges[0] : {};
+    },
+    latestBlogposts() {
+      return this.$page.posts.edges;
+      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
     }
   },
   computed: {

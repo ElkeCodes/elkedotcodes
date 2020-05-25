@@ -1,9 +1,17 @@
 /* purgecss start ignore */
-@import 'tailwindcss/base';
+@import "tailwindcss/base";
 
-@import './base.scss';
+@import "./base.scss";
 
-@import 'tailwindcss/components';
+@import "tailwindcss/components";
 /* purgecss end ignore */
 
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
+
+.max-h-0 {
+  max-height: 0;
+}
+
+.transition-max-h {
+  transition-property: max-height;
+}
