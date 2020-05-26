@@ -112,43 +112,6 @@ export default {
     },
     latestBlogposts() {
       return this.$page.posts.edges;
-      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
-    }
-  },
-  computed: {
-    highlightedBlogpost() {
-      return this.$page.posts ? this.$page.posts.edges[0] : {};
-    },
-    latestBlogposts() {
-      return this.$page.posts.edges;
-      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
-    }
-  },
-  computed: {
-    highlightedBlogpost() {
-      return this.$page.posts ? this.$page.posts.edges[0] : {};
-    },
-    latestBlogposts() {
-      return this.$page.posts.edges;
-      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
-    }
-  },
-  computed: {
-    highlightedBlogpost() {
-      return this.$page.posts ? this.$page.posts.edges[0] : {};
-    },
-    latestBlogposts() {
-      return this.$page.posts.edges;
-      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
-    }
-  },
-  computed: {
-    highlightedBlogpost() {
-      return this.$page.posts ? this.$page.posts.edges[0] : {};
-    },
-    latestBlogposts() {
-      return this.$page.posts.edges;
-      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
     }
   }
 };
