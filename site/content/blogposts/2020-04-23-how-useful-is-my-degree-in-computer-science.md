@@ -5,6 +5,7 @@ date: 2020-05-18
 title: "How useful is my degree in Computer Science?"
 excerpt: "It's a question that has been posed to me multiple times in the past. In these days of bootcamps and online trainings that are available everywhere, a lot of people wonder if it's worthwile to get a degree. I'll give an overview of the positive but also negative points I've experienced after getting my degree."
 icon: 🎓
+published: true
 ---
 
 ## What is my degree?

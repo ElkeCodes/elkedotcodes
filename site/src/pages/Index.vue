@@ -113,13 +113,22 @@ export default {
     latestBlogposts() {
       return this.$page.posts.edges;
     }
+  },
+  computed: {
+    highlightedBlogpost() {
+      return this.$page.posts ? this.$page.posts.edges[0] : {};
+    },
+    latestBlogposts() {
+      return this.$page.posts.edges;
+      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
+    }
   }
 };
 </script>
 
 <page-query>
 query {
-	posts: allBlogPost {
+	posts: allBlogPost(filter: { published: { eq: true }}) {
 		edges {
 			node {
 				title
