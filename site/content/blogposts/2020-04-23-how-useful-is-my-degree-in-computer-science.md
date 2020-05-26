@@ -67,19 +67,19 @@ Learning to program with a language like Scheme seemed weird at first.
 Like, how was this useful for when I might use one of the bigger languages such as Java or C# in my future career?
 But Scheme is one of those languages that gives you a lot of freedom and is not that difficult to understand.
 It allows you to focus more on programming concepts instead of focusing on syntax.
-It was all more focused on how to take a problem, dividing it into smaller problems and trying to write clean code to solve those smaller problems.
+It was all more focused on how to take a problem, divide it into smaller problems and try to write clean code to solve those smaller problems.
 
 During my second and third year of my bachelor's, the courses were pretty diverse.
 In courses like Computer Systems, I learned more about the internals of a computer.
 I learned how CPUs are internally structured, right down to how AND-ports, OR-ports and such are wired.
-Courses like ObjectOriented Modelling Techniques learnt me everything that would be necessary to model software in diagrams such as UML.
-I also learned more about Turing Machines and other mathematical principles that form the basis of informatics.
+Courses like Object-Oriented Modeling Techniques learnt me everything that would be necessary to model software in diagrams such as UML.
+I also learned more about Turing Machines and other mathematical principles that form the basics of informatics.
 
 ![Structure and Interpretation of Computer Programs book cover](../../src/assets/img/how-useful-is-my-degree-in-computer-science/structure-and-interpretation-of-computer-programs.jpg)
 
 But it was not only theoretical stuff that I learned.
 I learned to do projects in Java, I programmed games in Assembly and learned languages like C++.
-All courses were divided into two parts: theoretical and practical.
+All courses were divided into two parts: theory and practice.
 While I got a lot of theoretical stuff to learn, I would have to put that newfound theoretical stuff into use by doing projects and assignments in the practical part of the course.
 During certain courses this constituted of doing group projects.
 
@@ -89,13 +89,13 @@ My bachelor's could be considered to be a preparation for my master's.
 One of the main reasons for this was that my bachelor's was more generic.
 I wasn't specialised in anything.
 I did projects with web technology while also writing an interpreter and even doing low-level programming in Assembly.
-All of this were definitely valuable assets for my future career.
-But not doing a master's would not have felt as having done enough for me.
+All of these things were definitely valuable assets for my future career.
+But not doing a master's would have made me feel like my education was incomplete.
 
 ## What were the contents of my master's?
 
 In my master's I had more freedom in the courses that I was allowed to take.
-I had the possibility to choose between what minor I would do, which meant that I had a particular set of courses specific for that minor.
+I had the possibility to choose between what minor I would do, which meant that I had a particular set of courses that were necessary for that minor.
 Out of the 120 credits that I would have in my two years, about half of them were free to choose.
 I would also have to end my two years master's with a thesis worth 30 credits.
 Because I always had a big interest in web technology, I picked the minor "Web & Information Systems".
@@ -129,7 +129,7 @@ This allows me to make analogies when learning a new language.
 At the time of writing, most of my interest goes to JavaScript, TypeScript and all kinds of frontend frameworks.
 Certain langauge features like closures and scoping rules are stuff that I can translate from my Scheme knowledge in my bachelor's.
 
-As for the technologies that I use in my day-to-day job as a frontend developer, none of it have I learned at university.
+As for the technologies that I use in my day-to-day job as a frontend developer, none of it have I learned in specific courses at university.
 We had such a theoretical background built up that it was kind of expected that we learned things like CSS on our own.
 If we needed to write some JavaScript code, we were expected to find our ways through the documentation and figure it out by ourselves.
 For example I had done a project in C# without ever having seen a course on C#.
@@ -142,7 +142,7 @@ But because I am able to transpose a lot of knowledge and concepts, I am actuall
 ### Good or bad: a lot of courses gave me background knowledge that I don't apply in my current job
 
 An easy example for this are the contents of the courses Interpretation of Computer Programs 1 and 2.
-Both these courses gave me the knowledge on how to write a read-eval-print-loop.
+Both these courses gave me the knowledge on how to write a read-eval-print-loop (or in short: REPL).
 We learned how to write our own interpreter by parsing code into an abstract syntax tree and then executing it.
 As I'm currently a web developer, you wouldn't think that I would ever come across a use-case for this knowledge.
 
@@ -153,7 +153,7 @@ And the interpreters for JS and compilers for TS code aren't alone as tools like
 I once tried to bughunt something in my linter ESLint. 
 And what I saw was that it parsed all JavaScript code into an AST that was then used to rewrite the code, thus linting everything.
 The knowledge from those two courses was suddenly very applicable.
-And even if I didn't bughunt for something such specific, it gives me sense of fulfilment when I know what is running under the hood of my tools.
+And even if I didn't bughunt for something so specific, it gives me sense of fulfilment when I know what is running under the hood of my tools.
 
 Because I value background knowledge so much and am always curious on how things work, I consider this to be a good part of my education.
 
@@ -161,8 +161,8 @@ Because I value background knowledge so much and am always curious on how things
 
 ## Most things in my current job, I've learned at the job
 
-I'm not kidding if I claim that like 80% of what I have used in the last 5 years of my career were stuff that I didn't learn at university.
-My current job consists of VueJS development with TypeScript.
+I'm not kidding if I claim that like 80% of what I have used in the last 5 years of my career were things that I didn't learn at university.
+At the time of writing, my job consists of VueJS development with TypeScript.
 I'll admit, when I was still at university stuff like VueJS and TypeScript didn't exist.
 But things like frontend frameworks and JavaScript were not that focused in my education.
 
