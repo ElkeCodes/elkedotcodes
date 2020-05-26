@@ -112,7 +112,7 @@ export default {
 
 <page-query>
 query {
-	posts: allBlogPost {
+	posts: allBlogPost(filter: { published: { eq: true }}) {
 		edges {
 			node {
 				title

@@ -6,6 +6,7 @@ date: 2020-05-18
 goodreads: "https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited"
 excerpt: "Don't Make Me Think is a book by Steve Krug focusing on web usability. According to Steve, web design should take advantage of the fact that users will generally take the first available solution. Your website visitors don't want to think about where to click, everything should be clear at first glance."
 icon: 🤔
+published: false
 ---
 
 "Don't make me think" is a title that points out on of the first laws of good usability.
