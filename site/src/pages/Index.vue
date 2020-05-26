@@ -83,19 +83,44 @@ export default {
     ]
   },
   components: {
-    AdaCard
+    AdaCard,
   },
   data() {
     return {
-      profilePicture: "/img/me.jpg"
+      profilePicture: "/img/me.jpg",
     };
   },
   methods: {
-    mouseover: function() {
+    mouseover: function () {
       this.profilePicture = "/img/me-metal.jpg";
     },
-    mouseleave: function() {
+    mouseleave: function () {
       this.profilePicture = "/img/me.jpg";
+    },
+  },
+  computed: {
+    highlightedBlogpost() {
+      return this.$page.posts ? this.$page.posts.edges[0] : {};
+    },
+    latestBlogposts() {
+      return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
+    }
+  },
+  computed: {
+    highlightedBlogpost() {
+      return this.$page.posts ? this.$page.posts.edges[0] : {};
+    },
+    latestBlogposts() {
+      return this.$page.posts.edges;
+    }
+  },
+  computed: {
+    highlightedBlogpost() {
+      return this.$page.posts ? this.$page.posts.edges[0] : {};
+    },
+    latestBlogposts() {
+      return this.$page.posts.edges;
+      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
     }
   },
   computed: {
