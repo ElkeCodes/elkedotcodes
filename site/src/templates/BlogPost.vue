@@ -14,11 +14,11 @@
       <div
         class="flex flex-wrap md:flex-no-wrap mb-2 bg-gray-lighter rounded-lg px-4 py-2"
       >
-        <div class="w-full md:w-1/5 flex">
+        <div class="w-full md:w-1/5 flex justify-center items-center">
           <img
             src="/img/me.jpg"
             alt=""
-            class="w-1/2 md:w-full mx-auto mt-4 md:my-auto rounded-full shadow-lg transition"
+            class="w-1/2 md:w-full rounded-full shadow-lg transition pt-4 md:pt-0"
           />
         </div>
         <div class="w-full md:w-4/5 md:pl-8">
