@@ -17,6 +17,8 @@ The master's was a two year program of 120 [ECTS](https://en.wikipedia.org/wiki/
 Both those degrees I achieved at the [Vrije Universiteit Brussel](https://www.vub.be/en) (Free University of Brussels), or in short: VUB.
 My bachelor's took three years and my master's two years to complete.
 
+![Part of the green campus of the Vrije Universiteit Brussel](../../src/assets/img/how-useful-is-my-degree-in-computer-science/vrije-universiteit-brussel-campus.jpg)
+
 ## How did I choose where I would study?
 
 At 18 years old, I had the opportunity to start my education at university.
@@ -35,7 +37,7 @@ My future professors were very talkative and proud about their courses.
 I felt so much passion when they were talking about all the courses they were giving.
 That day I got home with a feeling of "I'll regret it if I don't study at the VUB".
 
-![Part of the green campus of the Vrije Universiteit Brussel](../../src/assets/img/how-useful-is-my-degree-in-computer-science/vrije-universiteit-brussel-campus.jpg)
+![Fisheye photo of the 'Grote Markt' (the main square) of Brussels](../../src/assets/img/how-useful-is-my-degree-in-computer-science/brussels-fisheye.jpg)
 
 ## What were the contents of my bachelor's?
 
@@ -157,7 +159,7 @@ And even if I didn't bughunt for something so specific, it gives me sense of ful
 
 Because I value background knowledge so much and am always curious on how things work, I consider this to be a good part of my education.
 
-![Aerial view of the campus of the Vrije Universiteit Brussel with the city in the background](../../src/assets/img/how-useful-is-my-degree-in-computer-science/vrije-universiteit-brussel-stad.jpg)
+![Crossing of multiple tram tracks uncovered. I find this fascinating to see how complex it all is before it's covered up by asphalt and a bunch of the complexity is hidden.](../../src/assets/img/how-useful-is-my-degree-in-computer-science/tram-tracks-uncovered.jpg)
 
 ## Most things in my current job, I've learned at the job
 
@@ -176,6 +178,8 @@ In my university courses I had learned the principles necessary to quickly incre
 So I'm not that concerned that I never had a basic JavaScript course nor a proper introduction into frontend frameworks or even an introduction on how to use a tool like SQL Server.
 I've learned the principles to work in new things, to transfer knowledge to something new.
 Languages or frameworks are merely tools to achieve my goal: build a product for the customer.
+
+![My first steps into a Vue project](../../src/assets/img/how-useful-is-my-degree-in-computer-science/vuejs-code.jpg)
 
 ## So... was it useful to get a degree in Computer Science at university level? Would I do it again?
 
