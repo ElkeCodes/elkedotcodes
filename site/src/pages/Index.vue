@@ -69,7 +69,6 @@
 
 <script>
 import Vue from "vue";
-import AdaCard from "ada/src/components/Card";
 
 export default {
   metaInfo: {
@@ -82,46 +81,18 @@ export default {
       }
     ]
   },
-  components: {
-    AdaCard,
-  },
   data() {
     return {
-      profilePicture: "/img/me.jpg",
+      profilePicture: "img/me.jpg",
     };
   },
   methods: {
     mouseover: function () {
-      this.profilePicture = "/img/me-metal.jpg";
+      this.profilePicture = "img/me-metal.jpg";
     },
     mouseleave: function () {
-      this.profilePicture = "/img/me.jpg";
+      this.profilePicture = "img/me.jpg";
     },
-  },
-  computed: {
-    highlightedBlogpost() {
-      return this.$page.posts ? this.$page.posts.edges[0] : {};
-    },
-    latestBlogposts() {
-      return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
-    }
-  },
-  computed: {
-    highlightedBlogpost() {
-      return this.$page.posts ? this.$page.posts.edges[0] : {};
-    },
-    latestBlogposts() {
-      return this.$page.posts.edges;
-    }
-  },
-  computed: {
-    highlightedBlogpost() {
-      return this.$page.posts ? this.$page.posts.edges[0] : {};
-    },
-    latestBlogposts() {
-      return this.$page.posts.edges;
-      // return this.$page.posts ? this.$page.posts.edges.slice(1) : [];
-    }
   },
   computed: {
     highlightedBlogpost() {
