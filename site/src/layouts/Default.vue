@@ -1,6 +1,6 @@
 <template>
   <div class="container max-w-full md:max-w-screen-md mx-auto">
-    <header class="full-width flex items-baseline justify-between mb-2">
+    <header class="w-full flex items-baseline justify-between mb-2">
       <g-link to="/" class="w-screen md:w-auto text-center font-bold text-4xl md:ml-8 mt-4 md:mt-8 py-2"
         >Elke<span class="text-primary text-7xl leading-6">.</span>codes</g-link
       >
@@ -32,10 +32,10 @@
         >
       </nav>
     </header>
-    <div class="full-width p-4 md:p-8">
+    <div class="w-full p-4 md:p-8">
       <slot />
     </div>
-    <footer class="full-width m-4 md:m-8 md:mt-0 pt-2 border-t text-tiny">
+    <footer class="w-full m-4 md:m-8 md:mt-0 pt-2 border-t text-tiny">
       &copy; 2020 Elke Heymans - Made with Vue, Gridsome, TailwindCSS, GraphQL
       and ☕️
     </footer>
