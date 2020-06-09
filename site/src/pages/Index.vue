@@ -27,14 +27,14 @@
       <h2>Highlighted blogpost</h2>
       <g-link
         :to="highlightedBlogpost.node.path"
-        class="block rounded-lg bg-gray px-4 py-2 mt-2 mb-4 transition duration-300 ease-in-out hover:bg-gray-lighter"
+        class="block rounded-lg bg-gray no-underline px-4 py-2 mt-2 mb-4 transition duration-300 ease-in-out hover:bg-gray-lighter"
       >
         <h3>{{ highlightedBlogpost.node.title }}</h3>
         <p>{{ highlightedBlogpost.node.excerpt }}</p>
       </g-link>
       <g-link
         :to="highlightedBlogpost.node.path"
-        class="block text-center md:float-right px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-primary hover:bg-primary-lighter"
+        class="block text-center no-underline md:float-right px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-primary hover:bg-primary-lighter"
       >
         📖 Read my "<span class="italic">{{
           highlightedBlogpost.node.title
@@ -51,7 +51,7 @@
       >
         <g-link
           :to="post.node.path"
-          class="w-full flex items-center content-between"
+          class="w-full flex items-center content-between no-underline"
           ><span
             class="h-10 w-10 flex-shrink-0 mr-2 md:mr-4 rounded-full bg-gray group-hover:bg-primary transition duration-300 ease-in-out flex items-center justify-center"
             >{{ post.node.icon }}</span

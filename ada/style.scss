@@ -677,6 +677,23 @@ button {
   }
 }
 
+code {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  --bg-opacity: 1;
+  background-color: #555555;
+  background-color: rgba(85, 85, 85, var(--bg-opacity));
+  border-radius: 0.25rem;
+}
+
+pre {
+  border-radius: 0.25rem;
+}
+
+a {
+  text-decoration: underline;
+}
+
 .container{
   width: 100%;
 }

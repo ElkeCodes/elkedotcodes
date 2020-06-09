@@ -36,3 +36,15 @@ button {
     @apply -translate-y-1 bg-primary-lighter;
   }
 }
+
+code {
+  @apply px-1 bg-gray-lighter rounded;
+}
+
+pre {
+  @apply rounded;
+}
+
+a {
+  @apply underline;
+}
