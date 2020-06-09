@@ -1,7 +1,7 @@
 ---
 slug: "picture-in-picture-api"
 type: "tech tidbit"
-date: 2020-06-02
+date: 2020-06-09
 title: "Picture-in-Picture API: create floating video windows"
 excerpt: "The Picture-in-Picture API allows you to create a floating video window that is always on top. It allows your visitors to keep a video rolling while they navigate your site or application."
 icon: 📽
