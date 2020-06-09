@@ -9,7 +9,10 @@ module.exports = {
         typeName: "BlogPost",
         path: "./content/blogposts/**/*.md",
         remark: {
-          plugins: ["@gridsome/remark-prismjs"]
+          plugins: [
+            ["remark-codesandbox", { mode: "button" }],
+            "@gridsome/remark-prismjs",
+          ]
         }
       }
     }

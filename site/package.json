@@ -17,6 +17,7 @@
     "ada": "0.1.0",
     "gridsome": "^0.7.0",
     "gridsome-source-storyblok": "^0.3.0",
+    "remark-codesandbox": "^0.5.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
