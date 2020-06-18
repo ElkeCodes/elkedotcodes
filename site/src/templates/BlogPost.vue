@@ -49,14 +49,26 @@ export default {
   metaInfo() {
     return {
       title: this.$page.blogPost.title,
-      meta: [{ name: "description", content: this.$page.blogPost.excerpt }]
+      meta: [
+        { name: "description", content: this.$page.blogPost.excerpt },
+        { name: "og:title", content: this.$page.blogPost.title },
+        { name: "og:description", content: this.$page.blogPost.excerpt },
+        { name: "og:url", content: document.location.href },
+        { name: "og:type", content: "article" },
+        { name: "og:image", content: "TODO" }, // TODO
+        { name: "twitter:card", content: "summary" },
+        { name: "twitter:site", content: "@elkecodes" },
+        { name: "twitter:title", content: this.$page.blogPost.title },
+        { name: "twitter:description", content: this.$page.blogPost.excerpt },
+        { name: "twitter:image", content: "TODO" }, // TODO
+      ]
     };
   },
   components: {
     AdaButton,
     AdaHeading,
-    AdaIntro,
-  },
+    AdaIntro
+  }
 };
 </script>
 
