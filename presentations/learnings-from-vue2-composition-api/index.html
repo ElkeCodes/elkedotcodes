@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Learnings from using Composition API in Vue2</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link
+      rel="stylesheet"
+      href="plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+    <!-- <link rel="stylesheet" href="../../ada/style.css" /> -->
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section><h1>Learnings from using Composition API in Vue2</h1></section>
+        <section>
+          <section>
+            <h2>Adding Composition API</h2>
+          </section>
+          <section>
+            <h2>Installation</h2>
+            <p>@vue/composition-api</p>
+          </section>
+          <section>
+            <ul>
+              <li>defineComponent() everything!</li>
+              <li>setup()</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section><h2>Changes to lifecycle hooks</h2></section>
+          <section data-background="img/vue2-lifecycle-hooks.png" data-background-size="contain">
+            <!-- <img class="r-stretch" src="img/vue2-lifecycle-hooks.png" alt="">
+            <a href="https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram">https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram</a> -->
+          </section>
+          <section>
+            <ul>
+              <li>beforeCreate => use setup()</li>
+              <li>created => use setup()</li>
+              <li>beforeMount => onBeforeMount</li>
+              <li>mounted => onMounted</li>
+              <li>beforeUpdate => onBeforeUpdate</li>
+              <li>updated => onUpdated</li>
+              <li>beforeDestroy => onBeforeUnmount</li>
+              <li>destroyed => onUnmounted</li>
+              <li>activated => onActivated</li>
+              <li>deactivated => onDeactivated</li>
+              <li>errorCaptured => onErrorCaptured</li>
+            </ul>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        margin: 0.02,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+      });
+    </script>
+  </body>
+</html>

@@ -55,6 +55,10 @@ export default {
         {
           to: "/about",
           label: "About me"
+        },
+        {
+          to: "/speaking",
+          label: "Speaking"
         }
       ]
     };
