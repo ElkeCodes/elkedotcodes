@@ -53,7 +53,7 @@ export default {
         { name: "description", content: this.$page.blogPost.excerpt },
         { name: "og:title", content: this.$page.blogPost.title },
         { name: "og:description", content: this.$page.blogPost.excerpt },
-        { name: "og:url", content: document.location.href },
+        // { name: "og:url", content: document.location.href },
         { name: "og:type", content: "article" },
         { name: "og:image", content: "TODO" }, // TODO
         { name: "twitter:card", content: "summary" },
