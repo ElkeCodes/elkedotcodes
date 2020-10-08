@@ -3,6 +3,6 @@
 .DS_Store
 site/src/.temp
 node_modules
-dist
+./dist
 .env
 .env.*
