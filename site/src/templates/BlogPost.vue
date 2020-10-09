@@ -67,8 +67,8 @@ export default {
   components: {
     AdaButton,
     AdaHeading,
-    AdaIntro
-  }
+    AdaIntro,
+  },
 };
 </script>
 
