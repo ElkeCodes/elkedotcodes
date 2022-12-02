@@ -1,6 +1,25 @@
 <template>
   <Layout>
     <AdaHeading>Speaking history</AdaHeading>
+    <h2>🎄 Advent of Code:</h2>
+    <p class="text-tiny">Presented 1 December 2022 @ women.code(be)</p>
+    <p>
+      Christmas is coming! That means that the yearly tradition of the Advent of
+      Code is here, an Advent calendar of small programming puzzles for a
+      variety of skill sets and skill levels. They have been used as a speed
+      contest, interview preparation, company training, university coursework,
+      practice problems, to challenge each other, or just for fun. But how do
+      you participate in the Advent of Code? What kind of programming puzzles
+      can you expect? Is it possible to learn a new programming language with
+      the Advent of Code or should you stick to something that you know?
+    </p>
+    <a
+      href="/presentations/advent-of-code"
+      target="_blank"
+      class="inline-block text-left w-auto no-underline px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 bg-primary hover:bg-primary-lighter"
+    >
+      🖼 Open the Advent Of Code slides
+    </a>
     <h2>⛵️ Hoist the sails, we have TailwindCSS!</h2>
     <p class="text-tiny">Presented 14 September 2020 @ women.code(be)</p>
     <p>
@@ -46,12 +65,12 @@ export default {
     title: "Speaking",
     meta: [
       {
-        description: "From time to time I love giving talks"
-      }
-    ]
+        description: "From time to time I love giving talks",
+      },
+    ],
   },
   components: {
-    AdaHeading
-  }
+    AdaHeading,
+  },
 };
 </script>
